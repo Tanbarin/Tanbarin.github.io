@@ -131,6 +131,10 @@ h1 {
 	font-family: "Gill sans", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 220%;
 	font-weight: bold;
+	color: #364e96;/*文字色*/
+	border: solid 3px #364e96;/*線色*/
+	padding: 0.5em;/*文字周りの余白*/
+	border-radius: 0.5em;/*角丸*/
 /*	float: left;   */
 }
 
