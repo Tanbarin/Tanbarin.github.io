@@ -129,17 +129,18 @@ h1,h2 {
 
 h1 {
 	font-family: "Gill sans", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-size: x-large;
+	font-size: 140%;
 	font-weight: bold;
 /*	float: left;   */
 }
 
 h2 {
-	font-size: medium;
+	font-size: 140%;
 }
 
 p {
 	line-height: 1.5;
+	font-size: 140%;
 }
 
 iframe { 
