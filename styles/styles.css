@@ -36,7 +36,11 @@
 		margin: 0 auto;
 		width: 600px;
 	}
-	#main {
+	#main1 {
+		float: left;
+		width: 300px;
+	}
+	#main2 {
 		float: left;
 		width: 300px;
 	}
@@ -47,7 +51,11 @@
 		margin: 0 auto;
 		width: 760px;
 	}
-	#sub {
+	#sub1 {
+		float: left;
+		width: 300px;
+	}
+	#sub2 {
 		float: left;
 		width: 300px;
 	}
