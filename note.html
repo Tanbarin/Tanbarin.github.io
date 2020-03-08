@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-
 <title>お知らせ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,24 +26,27 @@
 
 <body>
 
-	<div id="page">
-
-		<header id="luxbar" class="luxbar-fixed">
-			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-			<div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
-				<ul class="luxbar-navigation">
-					<li class="luxbar-header">
-						<a href="index.html" class="luxbar-brand">Tanbarin Man</a>
-						<label class="luxbar-hamburger luxbar-hamburger-doublespin" 
-						id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
-					</li>
-					<li class="luxbar-item"><a href="note.html">お知らせ</a></li>
-					<li class="luxbar-item"><a href="support.html">お問い合わせ</a></li>
-					<li class="luxbar-item"><a href="privacy.html">プライバシーポリシー</a></li>
-					<li class="luxbar-item"><a href="terms_of_use.html">利用規約</a></li>
-				</ul>
-			</div>
-		</header>
+<!-- Navbar -->
+<ul class="w3-navbar w3-pink w3-card-2 w3-top w3-left-align w3-large">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </li>
+  <li class="w3-hide-small"><a href="index.html" class="w3-padding-large w3-hover-white">Tanbarin Man</a></li>
+  <li><a href="note.html" class="w3-padding-large w3-white">お知らせ</a></li>
+  <li class="w3-hide-small"><a href="support.html" class="w3-padding-large w3-hover-white">お問い合わせ</a></li>
+  <li class="w3-hide-small"><a href="privacy.html" class="w3-padding-large w3-hover-white">プライバシーポリシー</a></li>
+  <li class="w3-hide-small"><a href="terms_of_use.html" class="w3-padding-large w3-hover-white">利用規約</a></li>
+</ul>
+  
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
+  <ul class="w3-navbar w3-left-align w3-large w3-black">
+    <li><a class="w3-padding-large" href="note.html">お知らせ</a></li>
+    <li><a class="w3-padding-large" href="support.html">お問い合わせ</a></li>
+    <li><a class="w3-padding-large" href="privacy.html">プライバシーポリシー</a></li>
+    <li><a class="w3-padding-large" href="terms_of_use.html">利用規約</a></li>
+  </ul>
+</div>
 
 		<div id="nmain">
 			<br><br><br><br>
