@@ -22,7 +22,7 @@
 
 <body>
 
-	<div id="opage">
+	<div id="page">
 
 		<header id="luxbar" class="luxbar-fixed">
 			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
@@ -67,7 +67,8 @@
 
 				<p>
 	            <label for="appname">アプリ名など</label><br>
-				<select id="appname" class="select1" name="entry.370481081" required>
+				<select id="appname" name="entry.370481081" required>
+					<option value="" hidden>選択してください</option>
 				    <option data-value="愚痴聞いてタンバリン (iOS)" value="愚痴聞いてタンバリン (iOS)">愚痴聞いてタンバリン (iOS)</option>
 					<option data-value="愚痴聞いてタンバリン (Android)" value="愚痴聞いてタンバリン (Android)">愚痴聞いてタンバリン (Android)</option>
 					<option data-value="会話して AI ちゃん (iOS)" value="会話して AI ちゃん (iOS)">会話して AI ちゃん (iOS)</option>
@@ -85,9 +86,11 @@
 				<textarea id="msg" class="tarea1" name="entry.2016532624" required></textarea><br>
 			    </p>
 				
-				<p><button type="submit" class="button1" name="button" value="送信"></button></p>
+				<p><button type="submit" name="button" value="送信">送信</button></p>
             </form>
 		</section>
+
+		<br>
 		
 		<section>
 		    <h1>回答は、お問い合わせ内容を確認後に下記で実施されます。</h1>

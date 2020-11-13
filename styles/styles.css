@@ -214,22 +214,28 @@ input.input1 {
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-.select1 {
-	width:320px; 
-	height:20px;
+select {	
+	-webkit-appearance: none;	
+	-moz-appearance: none;	
+	appearance: none;	
+	width:326px; 
+	height:27px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	border-radius: 0px;	
+	border: thin solid #aaaaaa;	
+	background-color: #ffffff;
 }
 
 textarea.tarea1 {
 	width:320px; 
-	height:60px;
+	height:80px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 0.95em;
 }
 
-.button1 {
-	width:60px;
-	height:40px;
+button {
+	width:50px;
+	height:30px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 } 
 
