@@ -208,6 +208,31 @@ table td {/*table内のtdに対して*/
 	border: 0;  /*デフォルトデザインでは線がある場合があるので、消しておく。*/
 }
 
+input.input1 {
+	width:320px; 
+	height:20px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.select1 {
+	width:320px; 
+	height:20px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+textarea.tarea1 {
+	width:320px; 
+	height:60px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 0.95em;
+}
+
+.button1 {
+	width:60px;
+	height:40px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+} 
+
 
 /* ページの枠組み
 ---------------------------------------------------- */
