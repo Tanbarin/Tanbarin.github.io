@@ -213,13 +213,16 @@ input.input1 {
 	width:320px; 
 	height:20px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	border-radius: 0px;	
+	border: thin solid #aaaaaa;	
+	background-color: #ffffff;
 }
 
 select {	
 	-webkit-appearance: none;	
 	-moz-appearance: none;	
 	appearance: none;	
-	width:326px; 
+	width:324px; 
 	height:27px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	border-radius: 0px;	
@@ -233,6 +236,9 @@ textarea.tarea1 {
 	height:80px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 0.95em;
+	border-radius: 0px;	
+	border: thin solid #aaaaaa;	
+	background-color: #ffffff;
 }
 
 button {
@@ -240,6 +246,8 @@ button {
 	width:50px;
 	height:30px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	border-radius: 0px;	
+	border: thin solid #aaaaaa;	
 } 
 
 
