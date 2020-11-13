@@ -209,6 +209,7 @@ table td {/*table内のtdに対して*/
 }
 
 input.input1 {
+	-webkit-appearance: none;	
 	width:320px; 
 	height:20px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -227,6 +228,7 @@ select {
 }
 
 textarea.tarea1 {
+	-webkit-appearance: none;	
 	width:320px; 
 	height:80px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -234,6 +236,7 @@ textarea.tarea1 {
 }
 
 button {
+	-webkit-appearance: none;	
 	width:50px;
 	height:30px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
