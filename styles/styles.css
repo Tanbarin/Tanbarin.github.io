@@ -246,6 +246,7 @@ button {
 	width:50px;
 	height:30px;
 	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	z-index: 1;
 	border-radius: 7px;	
 	border: thin solid #aaaaaa;
 	background-color: #dddddd;
